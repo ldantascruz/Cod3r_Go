@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="WSL - Ubuntu" type="wsl" uuid="a9bbabbd-60df-4a64-92a7-f7c74ee63cee">
+        <config>
+          <option name="distributionMsId" value="Ubuntu" />
+          <option name="projectRootOnTarget" value="{exitCode=0, timeout=false, cancelled=false, stdout=/tmp/tmp.2LrfikpPtH&#10;, stderr=}/fundamentos" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="goPath" value="/home/lucas/go_projects" />
+            <option name="goRoot" value="/home/lucas/go/bin/go" />
+            <option name="goVersion" value="go1.23.5 linux/amd64" />
+          </config>
+        </ContributedStateBase>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config />
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
