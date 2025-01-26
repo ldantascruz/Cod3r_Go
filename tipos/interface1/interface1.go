@@ -30,5 +30,23 @@ func imprimir(x imprimivel) {
 }
 
 func main() {
+	var coisa imprimivel = pessoa{
+		nome:      "Roberto",
+		sobrenome: "Silva",
+	}
+	fmt.Println(coisa.toString())
+	imprimir(coisa)
 
+	coisa = produto{
+		nome:  "Calça Jeans",
+		preco: 79.90,
+	}
+	fmt.Println(coisa.toString())
+	imprimir(coisa)
+
+	p2 := produto{
+		nome:  "Calça Jeans",
+		preco: 179.90,
+	}
+	imprimir(p2)
 }
